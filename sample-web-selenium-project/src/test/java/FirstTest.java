@@ -14,7 +14,9 @@ public class FirstTest {
     @Test
     public  void firstTestScript(){
    //     wd.get("https://search.maven.org");
-     wd.navigate().to("https://search.maven.org");
+     wd.get("https://search.maven.org");
+
+
 
     }
 
